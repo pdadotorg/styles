@@ -1,0 +1,15 @@
+.card__body h6 { margin-bottom: 10px }
+.card__body h6 + em { 
+  margin-bottom: 24px; 
+  font-weight: 600;
+  display: inline-block;
+}
+.border-red { border: 8px solid red; }
+.border-orange { border: 8px solid #FAC249; }
+.border-green { border: 8px solid #5EBB50; }
+@media (min-width: 1235px) {
+  .card { 
+    min-height: 670px;
+    position: relative;
+  }
+}
