@@ -8,7 +8,7 @@
 .border-orange { border: 8px solid #FAC249; }
 .border-green { border: 8px solid #5EBB50; }
 @media (min-width: 1235px) {
-  .card { 
+  .grid__unit .card { 
     min-height: 670px;
     position: relative;
   }
